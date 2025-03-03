@@ -8,7 +8,6 @@ spec:
       nativeHAGroups:
         local:
           name: recovery_group
-          role: Recovery
           tls:
             key:
               secretName: default-cert-copy
