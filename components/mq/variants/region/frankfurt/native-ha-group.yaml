@@ -8,7 +8,6 @@ spec:
       nativeHAGroups:    
         local:
           name: live_group
-          role: Live
           tls:
             key:
               secretName: default-cert-copy
