@@ -7,7 +7,8 @@ spec:
     availability:
       nativeHAGroups:
         local:
-          name: madrid
+          name: europe-west
+          role: Live
           tls:
             key:
               secretName: default-cert-copy
@@ -17,7 +18,7 @@ spec:
         remotes: 
           - addresses:  
             - native-ha-qm-crr-ibm-mq-nhacrr-cp4i.apps.67c1cda6bf028633dde83ab0.eu1.techzone.ibm.com:443
-            name: frankfurt
+            name: us-east
             trust: 
               - secret:
                   secretName: letsencrypt-chain   
